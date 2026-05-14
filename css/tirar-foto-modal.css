@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color:#242933;
+    font-family:Arial, Helvetica, sans-serif;
+    width:100%;
+    height:100vh;
+    overflow:hidden;
+    position:relative;
+}
+
+.config{
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:2;
+}
+#themeBtn{
+    width:45px;
+    height:45px;
+    border:none;
+    border-radius:50%;
+    background-color:#62656d;
+    position:absolute;
+    top:20px;
+    right:20px;
+}
+
+#themeBtn i{
+    font-size:24px;
+}
+#abrir-config{
+    width:45px;
+    height:45px;
+    border:none;
+    border-radius:50%;
+    background-color:#62656d;
+    position:absolute;
+    top:20px;
+    left:20px;
+}
+#abrir-config img{
+    width:22px;
+}
+.modal-tirar-foto{
+    width:100%;
+    height:100vh;
+    position:relative;
+}
+
+.tela-fundo{
+    width:100%;
+    height:100vh;
+    object-fit:cover;
+}
+
+.box-modal{
+    width:85%;
+    max-width:320px;
+    background-color:#242933;
+    border:2px solid #f4de5b;
+    border-radius:25px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+}
+.box-modal img{
+    width:70px;
+}
+.box-modal h2{
+    color:#f4de5b;
+    font-size:24px;
+}
+.box-modal p{
+    color:#f5f7fa;
+    font-size:15px;
+    line-height:22px;
+}
+#ativar-otimizacao{
+    width:100%;
+    border:none;
+    border-radius:30px;
+    background-color:#f4de5b;
+}
+#ativar-otimizacao a{
+    color:#242933;
+    text-decoration:none;
+    font-size:16px;
+    font-weight:bold;
+}
+#ignorar{
+    width:100%;
+    border:none;
+    border-radius:30px;
+    background-color:#415fff;
+}
+#ignorar a{
+    color:#f5f7fa;
+    text-decoration:none;
+    font-size:16px;
+    font-weight:bold;
+}
+
+.modos{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    position:absolute;
+    bottom:100px;
+}
+.modo{
+    border:none;
+    background-color:#62656d;
+    color:#f5f7fa;
+    border-radius:20px;
+    font-size:16px;
+    font-weight:bold;
+}
+.ativo{
+    background-color:#415fff;
+}
+.funcoes{
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    position:absolute;
+    bottom:20px;
+}
+
+.funcoes button{
+    border:none;
+    background:none;
+}
+.funcoes img{
+    width:55px;
+}
+#tirar-foto{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    border:6px solid #f5f7fa;
+    background-color:#415fff;
+}
